@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2DF0FEB8-121A-44A2-9B4B-F923F6F4D788}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.26228.4</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\../../lib/release\</OutDir>
+    <IntDir>.\../../obj/release/DUILib\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\../../lib/debug\</OutDir>
+    <IntDir>.\../../obj/debug/DUILib\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\../../lib/release/DUILib.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>../../include/DUILib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;UNICODE;_USRDLL;DUILIB_EXPORTS;MARKUP_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\../../obj/release/DUILib/DUILib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../obj/release/DUILib/</AssemblerListingLocation>
+      <ObjectFileName>.\../../obj/release/DUILib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../obj/release/DUILib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../bin/release/DUILib.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>.\../../lib/release/DUILib.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>.\../../lib/release/DUILib.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../../lib/release/DUILib.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\../../lib/debug/DUILib.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../include/DUILib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UNICODE;_USRDLL;DUILIB_EXPORTS;MARKUP_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\../../obj/debug/DUILib/DUILib.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\../../obj/debug/DUILib/</AssemblerListingLocation>
+      <ObjectFileName>.\../../obj/debug/DUILib/</ObjectFileName>
+      <ProgramDataBaseFileName>.\../../obj/debug/DUILib/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../bin/debug/DUILib.dll</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>../../lib/debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\../../lib/debug/DUILib.pdb</ProgramDatabaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <ImportLibrary>.\../../lib/debug/DUILib.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\../../lib/debug/DUILib.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CMarkup.cpp" />
+    <ClCompile Include="DUIAnimation.cpp" />
+    <ClCompile Include="DUIApp.cpp" />
+    <ClCompile Include="DUIBase.cpp" />
+    <ClCompile Include="DUIBitBuffer.cpp" />
+    <ClCompile Include="DUIBkgnd.cpp" />
+    <ClCompile Include="DUIButton.cpp" />
+    <ClCompile Include="DUICanvas.cpp" />
+    <ClCompile Include="DUIChildWindow.cpp" />
+    <ClCompile Include="DUIColor.cpp" />
+    <ClCompile Include="DUIComboBox.cpp" />
+    <ClCompile Include="DUIControlBase.cpp" />
+    <ClCompile Include="DUIControlBuilder.cpp" />
+    <ClCompile Include="DUIControlContainer.cpp" />
+    <ClCompile Include="DUIControlFactory.cpp" />
+    <ClCompile Include="DUIControls.cpp" />
+    <ClCompile Include="DUICursor.cpp" />
+    <ClCompile Include="DUIDdb.cpp" />
+    <ClCompile Include="DUIDebug.cpp" />
+    <ClCompile Include="DUIDecorate.cpp" />
+    <ClCompile Include="DUIDib.cpp" />
+    <ClCompile Include="DUIDibFilter.cpp" />
+    <ClCompile Include="DUIDibProcess.cpp" />
+    <ClCompile Include="DUIFile.cpp" />
+    <ClCompile Include="DUIFont.cpp" />
+    <ClCompile Include="DUIImage.cpp" />
+    <ClCompile Include="DUILabel.cpp" />
+    <ClCompile Include="DUILib.cpp" />
+    <ClCompile Include="DUIListBox.cpp" />
+    <ClCompile Include="DUIMenu.cpp" />
+    <ClCompile Include="DUIPictureBox.cpp" />
+    <ClCompile Include="DUIPopupWindow.cpp" />
+    <ClCompile Include="DUIProgressBar.cpp" />
+    <ClCompile Include="DUIRenderEngine.cpp" />
+    <ClCompile Include="DUIResLoader.cpp" />
+    <ClCompile Include="DUIResMgr.cpp" />
+    <ClCompile Include="DUIRichEdit.cpp" />
+    <ClCompile Include="DUIScrollbar.cpp" />
+    <ClCompile Include="DUISkinMgr.cpp" />
+    <ClCompile Include="DUISplit.cpp" />
+    <ClCompile Include="DUIString.cpp" />
+    <ClCompile Include="DUIToolBar.cpp" />
+    <ClCompile Include="DUITooltip.cpp" />
+    <ClCompile Include="DUITrackBar.cpp" />
+    <ClCompile Include="DUITreeView.cpp" />
+    <ClCompile Include="DUIUtil.cpp" />
+    <ClCompile Include="DUIWindowBase.cpp" />
+    <ClCompile Include="DUIWindowMgr.cpp" />
+    <ClCompile Include="DUIWinObject.cpp" />
+    <ClCompile Include="stb_image.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\DUILib\DUIAnimation.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIApp.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIAtl.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIBase.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIBitBuffer.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIBkgnd.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIButton.h" />
+    <ClInclude Include="..\..\include\DUILib\DUICanvas.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIChildWindow.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIColor.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIComboBox.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIControlBase.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIControlBuilder.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIControlContainer.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIControlFactory.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIControls.h" />
+    <ClInclude Include="..\..\include\DUILib\DUICursor.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIDebug.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIDecorate.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIDef.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIDib.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIDibFilter.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIDibProcess.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIFile.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIFont.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIImage.h" />
+    <ClInclude Include="..\..\include\DUILib\DUILabel.h" />
+    <ClInclude Include="..\..\include\DUILib\DUILib.h" />
+    <ClInclude Include="..\..\include\DUILib\DUILibDef.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIListBox.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIMenu.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIPictureBox.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIPopupWindow.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIProgressBar.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIRef.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIRenderEngine.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIResLoader.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIResMgr.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIRichEdit.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIScrollbar.h" />
+    <ClInclude Include="..\..\include\DUILib\DUISkinMgr.h" />
+    <ClInclude Include="..\..\include\DUILib\DUISplit.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIString.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIToolBar.h" />
+    <ClInclude Include="..\..\include\DUILib\DUITrackBar.h" />
+    <ClInclude Include="..\..\include\DUILib\DUITreeView.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIWindowBase.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIWindowMgr.h" />
+    <ClInclude Include="..\..\include\DUILib\DUIWinObject.h" />
+    <ClInclude Include="CMarkup.h" />
+    <ClInclude Include="DUIDdb.h" />
+    <ClInclude Include="DUITooltip.h" />
+    <ClInclude Include="DUIUtil.h" />
+    <ClInclude Include="DUIWinVer.h" />
+    <ClInclude Include="DUIXml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

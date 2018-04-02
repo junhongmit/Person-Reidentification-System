@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{f06c6f51-0ad0-4f9f-be4e-865fc597f633}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Control_CPP">
+      <UniqueIdentifier>{36761ebe-dad8-477c-9372-30f298480560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common_CPP">
+      <UniqueIdentifier>{9e366eec-b2a7-47d0-9656-5ecde7c4b47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager_CPP">
+      <UniqueIdentifier>{22740606-4351-4382-9cd4-951534df2560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{10eb9bbc-c582-4b61-adb2-a91ceed8c038}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Control_H">
+      <UniqueIdentifier>{1b7114be-022a-43a5-a7ab-5674a8b59800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common_H">
+      <UniqueIdentifier>{41b994ea-27b2-4023-9b88-37371ca047f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager_H">
+      <UniqueIdentifier>{e80a7d9f-69cd-4cda-b002-6936714edd6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0c39122f-c2de-42ee-80a8-fc296342e669}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DUIControls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DUILib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIAnimation.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIButton.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUICanvas.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIComboBox.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIControlBase.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIControlContainer.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIDecorate.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUILabel.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIListBox.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIMenu.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIPictureBox.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIProgressBar.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIRichEdit.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIScrollbar.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUISplit.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIToolBar.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUITrackBar.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUITreeView.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIWinObject.cpp">
+      <Filter>Source Files\Control_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="CMarkup.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIBase.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIBitBuffer.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIBkgnd.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIColor.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUICursor.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIDdb.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIDebug.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIDib.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIDibFilter.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIDibProcess.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIFile.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIFont.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIImage.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIRenderEngine.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIString.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUITooltip.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIUtil.cpp">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIApp.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIChildWindow.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIControlBuilder.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIControlFactory.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIPopupWindow.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIResLoader.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIResMgr.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUISkinMgr.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIWindowBase.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIWindowMgr.cpp">
+      <Filter>Source Files\Manager_CPP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMarkup.h">
+      <Filter>Source Files\Common_CPP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIControls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUILib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUILibDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIAnimation.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIButton.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUICanvas.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIComboBox.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIControlBase.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIControlContainer.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIDecorate.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUILabel.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIListBox.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIMenu.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIPictureBox.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIProgressBar.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIRichEdit.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIScrollbar.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUISplit.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIToolBar.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUITrackBar.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUITreeView.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIWinObject.h">
+      <Filter>Header Files\Control_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIAtl.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIBase.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIBitBuffer.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIBkgnd.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIColor.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUICursor.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIDdb.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIDebug.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIDef.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIDib.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIDibFilter.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIDibProcess.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIFile.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIFont.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIImage.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIRef.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIRenderEngine.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIString.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DUITooltip.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIUtil.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIWinVer.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIXml.h">
+      <Filter>Header Files\Common_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIApp.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIChildWindow.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIControlBuilder.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIControlFactory.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIPopupWindow.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIResLoader.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIResMgr.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUISkinMgr.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIWindowBase.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\DUILib\DUIWindowMgr.h">
+      <Filter>Header Files\Manager_H</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

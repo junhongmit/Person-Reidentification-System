@@ -1,0 +1,8 @@
+﻿  ControlDemo.cpp
+e:\software design\dui\include\duilib\duicolor.h(104): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+e:\software design\dui\src\controldemo\controldemo.cpp(322): warning C4244: “=”: 从“double”转换到“DWORD”，可能丢失数据
+e:\software design\dui\src\controldemo\controldemo.cpp(381): warning C4101: “dwWritten”: 未引用的局部变量
+e:\software design\dui\src\controldemo\controldemo.cpp(381): warning C4101: “dwTotalBytesAvail”: 未引用的局部变量
+e:\software design\dui\src\controldemo\controldemo.cpp(521): warning C4101: “dwWritten”: 未引用的局部变量
+  ControlDemo.vcxproj -> E:\Software Design\dui\src\ControlDemo\.\../../bin/debug\ControlDemo.exe
+  ControlDemo.vcxproj -> .\../../obj/debug/ControlDemo/ControlDemo.pdb (Full PDB)

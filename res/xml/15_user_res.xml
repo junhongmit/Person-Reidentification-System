@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dui_resource>
+	<image_set>
+		<image name="user1" config_type="file" file_name="./../../../reID_single/result_JPG/015995/0_015995.jpg" count="1"/>
+	</image_set>
+</dui_resource>

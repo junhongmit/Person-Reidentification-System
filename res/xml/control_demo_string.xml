@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dui_language>
+	<string id="ids_title">行人重识别系统</string>
+	<string id="ids_fontname">宋体</string>
+	<string id="ids_button">test button</string>
+	<string id="ids_openfile_button">打开文件</string>
+	<string id="ids_openfile_tooltip">打开要查找的图片</string>
+	<string id="ids_search_button">搜 索</string>
+	<string id="ids_search_tooltip">搜索数据库中类似图片</string>
+	<string id="ids_open_path_button">打 开</string>
+	<string id="ids_open_path_tooltip">打开需要查询的图片的文件夹</string>
+	<string id="ids_export_button">导 出</string>
+	<string id="ids_export_tooltip">导出所有查询图片的结果</string>
+	<string id="ids_save_button">保 存</string>
+	<string id="ids_save_tooltip">保存导出的XML文件</string>
+	<string id="ids_export_window_tooltip">导出的XML文件详细信息</string>
+	<string id="note">The DrawText function uses the device context's selected font, text color, and background color to draw the text. Unless the DT_NOCLIP format is used, DrawText clips the text so that it does not appear outside the specified rectangle.</string>
+</dui_language>

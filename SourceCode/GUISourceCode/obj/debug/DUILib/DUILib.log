@@ -1,0 +1,16 @@
+﻿  DUIListBox.cpp
+e:\软件课设\dui\include\duilib\duicolor.h(104): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+  正在生成代码...
+  正在编译...
+  DUIControls.cpp
+e:\软件课设\dui\include\duilib\duicolor.h(104): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+  DUIControlBuilder.cpp
+e:\软件课设\dui\include\duilib\duicolor.h(104): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+  DUIComboBox.cpp
+e:\软件课设\dui\include\duilib\duicolor.h(104): warning C4091: “typedef ”: 没有声明变量时忽略“”的左侧
+  正在生成代码...
+D:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(E:\软件课设\dui\src\DUILib\.\../../lib/debug\DUILib.dll) 与 Linker 的 OutputFile 属性值(E:\软件课设\dui\bin\debug\DUILib.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+CMarkup.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+    正在创建库 .\../../lib/debug/DUILib.lib 和对象 .\../../lib/debug/DUILib.exp
+  DUILib.vcxproj -> E:\软件课设\dui\src\DUILib\.\../../lib/debug\DUILib.dll
+  DUILib.vcxproj -> .\../../lib/debug/DUILib.pdb (Full PDB)

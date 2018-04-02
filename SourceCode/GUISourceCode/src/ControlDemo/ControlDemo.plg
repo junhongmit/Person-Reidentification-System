@@ -1,0 +1,270 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DUILib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP32A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../include/DUILib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "DUILIB_EXPORTS" /D "MARKUP_STL" /Fo"../../obj/debug/DUILib/" /Fd"../../obj/debug/DUILib/" /FD /GZ /c 
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIAnimation.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIButton.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUICanvas.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIComboBox.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIControlBase.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIControlContainer.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIDecorate.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUILabel.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIListBox.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIMenu.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIPictureBox.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIProgressBar.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIRichEdit.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIScrollbar.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUISplit.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIToolBar.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUITrackBar.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUITreeView.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIWinObject.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\CMarkup.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIBase.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIBitBuffer.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIBkgnd.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIColor.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUICursor.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIDdb.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIDebug.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIDib.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIDibFilter.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIDibProcess.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIFile.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIFont.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIImage.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIRenderEngine.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIString.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUITooltip.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIUtil.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\stb_image.c"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIApp.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIChildWindow.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIControlBuilder.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIControlFactory.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIPopupWindow.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIResLoader.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIResMgr.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUISkinMgr.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIWindowBase.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIWindowMgr.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUIControls.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\DUILib\DUILib.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP32A.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP32B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib Msimg32.lib /nologo /dll /incremental:yes /pdb:"../../lib/debug/DUILib.pdb" /debug /machine:I386 /out:"../../bin/debug/DUILib.dll" /implib:"../../lib/debug/DUILib.lib" /pdbtype:sept /libpath:"../../lib/debug" 
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIAnimation.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIButton.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUICanvas.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIComboBox.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIControlBase.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIControlContainer.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIDecorate.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUILabel.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIListBox.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIMenu.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIPictureBox.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIProgressBar.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIRichEdit.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIScrollbar.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUISplit.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIToolBar.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUITrackBar.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUITreeView.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIWinObject.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\CMarkup.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIBase.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIBitBuffer.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIBkgnd.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIColor.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUICursor.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIDdb.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIDebug.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIDib.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIDibFilter.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIDibProcess.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIFile.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIFont.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIImage.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIRenderEngine.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIString.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUITooltip.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIUtil.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\stb_image.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIApp.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIChildWindow.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIControlBuilder.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIControlFactory.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIPopupWindow.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIResLoader.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIResMgr.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUISkinMgr.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIWindowBase.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIWindowMgr.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUIControls.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\DUILib\DUILib.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP32B.tmp"
+<h3>Output Window</h3>
+Compiling...
+DUIAnimation.cpp
+DUIButton.cpp
+DUICanvas.cpp
+DUIComboBox.cpp
+DUIControlBase.cpp
+DUIControlContainer.cpp
+DUIDecorate.cpp
+DUILabel.cpp
+DUIListBox.cpp
+DUIMenu.cpp
+DUIPictureBox.cpp
+DUIProgressBar.cpp
+DUIRichEdit.cpp
+DUIScrollbar.cpp
+DUISplit.cpp
+DUIToolBar.cpp
+DUITrackBar.cpp
+DUITreeView.cpp
+DUIWinObject.cpp
+CMarkup.cpp
+Generating Code...
+Compiling...
+DUIBase.cpp
+DUIBitBuffer.cpp
+DUIBkgnd.cpp
+DUIColor.cpp
+DUICursor.cpp
+DUIDdb.cpp
+DUIDebug.cpp
+DUIDib.cpp
+DUIDibFilter.cpp
+DUIDibProcess.cpp
+DUIFile.cpp
+DUIFont.cpp
+DUIImage.cpp
+DUIRenderEngine.cpp
+DUIString.cpp
+DUITooltip.cpp
+DUIUtil.cpp
+Generating Code...
+Compiling...
+stb_image.c
+Generating Code...
+Compiling...
+DUIApp.cpp
+DUIChildWindow.cpp
+DUIControlBuilder.cpp
+DUIControlFactory.cpp
+DUIPopupWindow.cpp
+DUIResLoader.cpp
+DUIResMgr.cpp
+DUISkinMgr.cpp
+DUIWindowBase.cpp
+DUIWindowMgr.cpp
+DUIControls.cpp
+DUILib.cpp
+Generating Code...
+Linking...
+   Creating library ../../lib/debug/DUILib.lib and object ../../lib/debug/DUILib.exp
+<h3>
+--------------------Configuration: Fade_Button - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP330.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../include/DUILib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /D "_USRDLL" /D "FADE_BUTTON_EXPORTS" /Fp"../../obj/debug/Fade_Button/Fade_Button.pch" /YX /Fo"../../obj/debug/Fade_Button/" /Fd"../../obj/debug/Fade_Button/" /FD /GZ /c 
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\Fade_Button\dllmain.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\Fade_Button\Fade_Button.cpp"
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\Fade_Button\stdafx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP330.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP331.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:yes /pdb:"../../lib/debug/fade_button.pdb" /debug /machine:I386 /def:".\Fade_Button.def" /out:"../../bin/debug/fade_button.dll" /implib:"../../lib/debug/fade_button.lib" /pdbtype:sept /libpath:"../../lib/debug" 
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\Fade_Button\dllmain.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\Fade_Button\Fade_Button.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\Fade_Button\stdafx.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP331.tmp"
+<h3>Output Window</h3>
+Compiling...
+dllmain.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+Fade_Button.cpp
+
+NOTE: WINVER has been defined as 0x0500 or greater which enables
+Windows NT 5.0 and Windows 98 features. When these headers were released,
+Windows NT 5.0 beta 1 and Windows 98 beta 2.1 were the current versions.
+
+For this release when WINVER is defined as 0x0500 or greater, you can only
+build beta or test applications.  To build a retail application,
+set WINVER to 0x0400 or visit http://www.microsoft.com/msdn/sdk
+to see if retail Windows NT 5.0 or Windows 98 headers are available.
+
+See the SDK release notes for more information.
+
+stdafx.cpp
+Linking...
+.\Fade_Button.def : warning LNK4017: LIBRARY statement not supported for the target platform; ignored
+   Creating library ../../lib/debug/fade_button.lib and object ../../lib/debug/fade_button.exp
+<h3>
+--------------------Configuration: ControlDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP335.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../include/duilib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /FR"../../obj/debug/ControlDemo/" /Fo"../../obj/debug/ControlDemo/" /Fd"../../obj/debug/ControlDemo/" /FD /GZ /c 
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\ControlDemo\ControlDemo.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP335.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP336.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "../../include/duilib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "UNICODE" /D "_UNICODE" /FR"../../obj/debug/ControlDemo/" /Fp"../../obj/debug/ControlDemo/ControlDemo.pch" /Yc"stdafx.h" /Fo"../../obj/debug/ControlDemo/" /Fd"../../obj/debug/ControlDemo/" /FD /GZ /c 
+"F:\项目刎删\xnote_xnote-dui\dui\dui\src\ControlDemo\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP336.tmp" 
+Creating temporary file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP337.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib duilib.lib /nologo /subsystem:windows /incremental:yes /pdb:"../../obj/debug/ControlDemo/ControlDemo.pdb" /debug /machine:I386 /out:"../../bin/debug/ControlDemo.exe" /pdbtype:sept /libpath:"../../lib/debug" 
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\ControlDemo\ControlDemo.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\obj\debug\ControlDemo\StdAfx.obj"
+"\项目刎删\xnote_xnote-dui\dui\dui\lib\debug\DUILib.lib"
+"\项目刎删\xnote_xnote-dui\dui\dui\lib\debug\fade_button.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP337.tmp"
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+ControlDemo.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+ControlDemo.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
